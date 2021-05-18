@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_music_note_24"
+            android:title="Sonido" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_web_24"
+            android:title="Web" />
+        <item
+            android:id="@+id/APKFragment"
+            android:icon="@drawable/ic_baseline_android_24"
+            android:title="APK"/>
+
+        <item
+            android:id="@+id/listFragment"
+            android:icon="@drawable/ic_baseline_view_list_24"
+            android:title="Lista"/>
+
+        <item
+            android:id="@+id/mapsFragment"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Mapas"/>
+
+    </group>
+</menu>

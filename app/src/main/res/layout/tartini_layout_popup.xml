@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/button2_style"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/tartini" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="7dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GIUSEPPE TARTINI"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arapey"
+                android:layout_marginBottom="3dp"
+                android:text="Nacio el 8 de abril de 1692 en Piran, Republica de Venecia."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arapey"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="3dp"
+                android:text="Musico, violinista y compositor del periodo barroco."
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arapey"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"
+                android:text="Compuso alrededor de 150 conciertos y 100 sonatas para violin, de las cuales las mas conocidas son: El Trino del Diablo y Concertino para clarinete y piano." />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arapey"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"
+                android:text="Fue uno de los mas virtuosos violinistas de su epoca, sus innovaciones en el instrumento no fueron superadas hasta la llegada de Niccolo Paganini." />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arapey"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"
+                android:text="Sonata para violin en G menor, es el nombre de la mas grande obra de Tartini, tambien llamada: la Sonata del Diablo." />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arapey"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"
+                android:text="La Sonata del Diablo fue compuesta luego de un supuesto sueño de Tartini con el Diablo." />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arapey"
+                android:textStyle="bold"
+                android:text="Muere el 26 de febrero de 1770 en Padua a los 77 años a causa de una gangrena." />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
